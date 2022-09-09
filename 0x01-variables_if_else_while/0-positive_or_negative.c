@@ -3,11 +3,12 @@
 #include <time.h>
 
 /**
- * main - Entry point
+ * main - determine if number is positive or negative
  *
- * Description: program analyses if random number is positive or negative
+ * Description: program will assign a random number to the variable n each time
+ * it is executed.
  *
- * return: always 0 (success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
