@@ -1,18 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - print alphabet letters in lowercase except q and e
+ * main - printletters of alphabet except e, q
  *
- * description: print alphabet letters in lowercase except q and e
+ * Description: print letters of alphabet in lowercase except e, q
  *
- * return: Always 0 (success)
+ * Return: Always 0 (success)
  */
 
 int main(void)
 {
 	int i = 97;
 
-	while (1 < 123)
+	while (i < 123)
 	{
 		if (i != 101 && i != 113)
 		{
