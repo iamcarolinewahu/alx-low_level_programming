@@ -16,7 +16,7 @@ int print_alphabet(void)
 }
 
 /**
- * print_alphabet_x10 - ptints alphabet 10 times
+ * print_alphabet_x10 - prints alphabet 10 times
  *
  */
 void print_alphabet_x10(void)
