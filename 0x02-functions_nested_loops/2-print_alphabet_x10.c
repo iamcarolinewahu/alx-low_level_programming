@@ -12,7 +12,7 @@ void print_alphabet_x10(void)
 	int round = 0;
 	char alphabet;
 
-	while (round <= 10)
+	while (round < 10)
 	{
 		alphabet = 'a';
 		while (alphabet <= 'z')
