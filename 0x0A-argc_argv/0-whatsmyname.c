@@ -1,16 +1,17 @@
 #include <stdio.h>
 
 /**
- * main - prints the name of the program
- * @argc: int
- * @argv: list
- * Return: 0
- */
+ * main - prints name of file
+ * @argc: number of arguments
+ * @argv: arguments entered
+ * Description: print name of file
+ * Return: zero
+ **/
 
-int main(int argc, char const *argv[])
+int main(int argc, char *argv[])
 {
-	(void)argc;
-	printf("%s\n", arg[0]);
+	printf("%s\n", argv[0]);
+	argc = argc;
 
 	return (0);
 }
