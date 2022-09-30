@@ -3,11 +3,11 @@
 /**
  * main - prints the name of the program
  * @argc: int
- * @argc: list
+ * @argv: list
  * Return: 0
  */
 
-int main (int argc, char const *argv[])
+int main(int argc, char const *argv[])
 {
 	printf("%s\n", arg[0]);
 
