@@ -27,12 +27,22 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	for (i = 0; i < n; i++)
 	{
 		x = va_arg(num, int);
-		if (separator == NULL || i == n - 1)
 
-			printf("%d\n", x);
+		if (separator == NULL)
+		{
+			if (i == n - 1)
+				printf("%d\n", x);
+			else
+				printf("%d", x);
+		}
+
 		else
-			printf("%d%s ", x, separator);
+		{
+			if (i == n - 1)
+				printf("%d\n", x);
+			else
+				printf("%d%s ", x, separator);
+		}
 	}
-	printf("\n");
 va_end(num);
 }
