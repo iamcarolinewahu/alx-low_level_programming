@@ -20,7 +20,7 @@ list_t *add_node(list_t **head, const char *str)
 	if (str == NULL)
 	{
 		string = NULL;
-		lengthe = 0;
+		length = 0;
 	}
 	else
 	{
