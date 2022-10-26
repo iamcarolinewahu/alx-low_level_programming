@@ -6,9 +6,9 @@
  * Return: void
  */
 
-void free_listint(listint_t *head)
+void free_list(list_t *head)
 {
-	listint_t *temp;
+	list_t *temp;
 
 	temp = head;
 	while (temp != NULL)
